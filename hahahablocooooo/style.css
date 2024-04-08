@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  body{
+    background-color: whitesmoke
+  }
+  header{
+    border-bottom: 2px solid #1b85dc;
+    height: 10vh;
+    display:flex;
+    background-color: whitesmoke;
+  }
+ 
+  #logo{
+    width: 50vw;
+    height: 10vh;
+    padding: 5px;
+  }
+ 
+  #logo img{
+    height: 8vh; 
+  
+  }
+
+  #display{
+    width: 50vw;
+  }
+ 
+  #user{
+    width: 20vw;
+  }
+ 
+  main{
+    margin: 2vh 2vw;
+    min-height: 80vh;
+  }
+ 
+  #notes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+ 
+  .card a{
+    text-decoration: none;
+  }
+ 
+  #modal-view{
+    border:2px solid #1b85dc;
+    position: absolute;
+    display:none;
+    width: 96vw;
+    padding:10px;
+    align-items: center;
+  }
+ 
+  #close-modal{
+    float:right;
+  }
+  h2{
+    text-align: center;
+    display: block;
+    font-size: 25px;
+    margin-top: 10px;
+  }
+  #modal{
+    border:2px solid #1b85dc;
+    position: absolute;
+    padding:2vh 2vw;
+    display:none;
+    width: 90vw;
+  }
+ 
+  #controls-note{
+    display:flex;
+    gap:10px;
+  }
+
+  h5{
+    padding: 3px;
+    color: black;
+  }
+
+  p{
+    padding: 3px;
+    color: black;
+  }
+
+  .card{
+    border:2px solid #1b85dc;
+
+  }
+
